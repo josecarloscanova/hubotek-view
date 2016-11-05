@@ -21,31 +21,7 @@
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>19.0</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/johnzon-core -->
-		<dependency>
-			<groupId>org.apache.johnzon</groupId>
-			<artifactId>johnzon-core</artifactId>
-			<version>0.9.5</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/johnzon-mapper -->
-		<dependency>
-			<groupId>org.apache.johnzon</groupId>
-			<artifactId>johnzon-mapper</artifactId>
-			<version>0.9.5</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/johnzon-jaxrs -->
-		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/johnzon-jsonb -->
-		<dependency>
-			<groupId>org.apache.johnzon</groupId>
-			<artifactId>johnzon-jsonb</artifactId>
-			<version>0.9.5</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.johnzon/jsonb-api -->
-		<dependency>
-			<groupId>org.apache.johnzon</groupId>
-			<artifactId>jsonb-api</artifactId>
-			<version>0.9.5</version>
+			<scope>runtime</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax/javaee-api -->
 		<dependency>
