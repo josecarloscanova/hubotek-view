@@ -1,7 +1,5 @@
 package org.hubotek.view.search.history;
 
-import javax.persistence.Column;
-
 import org.hubotek.view.BaseView;
 
 
@@ -18,7 +16,6 @@ public class HistoryDocument extends BaseView<HistoryDocument>{
 	//LegacyDocumentType
 	private String legacyDocumentyType;
 	
-	@Column(name="title" , length=255 , insertable=true , updatable=false)
 	private String title;
 	private String link;
 	private String language; 
