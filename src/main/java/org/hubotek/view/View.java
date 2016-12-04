@@ -1,21 +1,14 @@
 package org.hubotek.view;
 
-import java.io.Serializable;
-import java.util.Optional;
 import java.util.function.Supplier;
 
 @FunctionalInterface
-public interface View<T> extends Supplier<T> , Serializable{
+public interface View extends Supplier<View> {
 
 	
-	default  T newAnyType(Supplier<T> supplier)
+	default  View newView(Supplier<View> supplier)
 	{ 
 		return supplier.get();
-	}
-	
-	default  T ofNullable(T dest , Supplier<T> viewSupplier) 
-	{ 
-		return Optional.ofNullable(dest).orElseGet(viewSupplier); 
 	}
 	
 }

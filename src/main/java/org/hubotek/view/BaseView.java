@@ -4,7 +4,5 @@ import javax.enterprise.context.Dependent;
 
 
 @Dependent
-@SuppressWarnings("serial")
-public abstract class BaseView<T> implements View<T>{
-
+public abstract class BaseView implements View{
 }

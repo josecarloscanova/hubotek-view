@@ -8,8 +8,7 @@ import org.hubotek.view.BaseView;
  * @author JoseCanova
  *
  */
-@SuppressWarnings("serial")
-public class HistoryDocument extends BaseView<HistoryDocument>{
+public class HistoryDocument extends BaseView{
 
 	private Long id;
 	
