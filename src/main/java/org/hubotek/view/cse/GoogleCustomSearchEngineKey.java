@@ -7,7 +7,7 @@ import javax.inject.Named;
 
 import org.hubotek.view.View;
 
-@Named
+@Named("googleCustomSearchEngineKey")
 @Dependent
 public class GoogleCustomSearchEngineKey implements View{
 
